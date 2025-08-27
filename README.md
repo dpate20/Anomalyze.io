@@ -27,5 +27,11 @@ Anomalyze.io is a self-learning, real-time threat detection agent that uses live
 
 ---
 
-## 📁 Project Structure
+## 🧪 How It Works
 
+1. `NetdetectionAgent.py` continuously sniffs live network traffic
+2. Each packet is scored by a self-learning model (`HalfSpaceTrees`)
+3. Anomalies are flagged and logged in `anomaly_log.csv`
+4. `dashboard.py` displays results in real-time with auto-refresh
+
+---
